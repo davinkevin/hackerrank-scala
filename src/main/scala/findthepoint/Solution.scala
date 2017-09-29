@@ -12,15 +12,14 @@ object Solution {
   }
 
   def calculateRForLine(line: String): Unit = {
-    val points = line.split(" ")
+    val (p, q) = line.split(" ")
       .map(v => v.toInt)
       .grouped(2)
       .toList
       .map(v => (v(0), v(1)))
+    match { case List(a, b) => (a, b) }
 
-    val (p, q) = (points.head, points(1))
-
-    val r = ( (q._1 - p._1) + q._1, (q._2 - p._2) + q._2)
+    val r = ( 2 * q._1 - p._1, 2 * q._2 - p._2)
 
     println(s"${r._1} ${r._2}")
   }
