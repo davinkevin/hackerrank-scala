@@ -1,4 +1,4 @@
-package findthepoint
+package algorithms.warmup.findthepoint
 
 import scala.io._
 

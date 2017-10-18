@@ -1,4 +1,4 @@
-package simplearraysum
+package algorithms.warmup.simplearraysum
 
 import scala.io.Source
 

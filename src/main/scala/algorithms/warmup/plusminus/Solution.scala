@@ -1,4 +1,4 @@
-package plusminus
+package algorithms.warmup.plusminus
 
 import scala.io.Source
 

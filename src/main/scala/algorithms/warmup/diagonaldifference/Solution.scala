@@ -1,4 +1,4 @@
-package diagonaldifference
+package algorithms.warmup.diagonaldifference
 
 import scala.io.Source
 

@@ -1,4 +1,4 @@
-package averybigsum
+package algorithms.warmup.averybigsum
 
 import scala.io.Source
 

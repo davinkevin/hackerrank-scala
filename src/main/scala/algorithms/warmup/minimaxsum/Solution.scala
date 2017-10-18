@@ -1,4 +1,4 @@
-package minimaxsum
+package algorithms.warmup.minimaxsum
 
 import scala.io.Source
 

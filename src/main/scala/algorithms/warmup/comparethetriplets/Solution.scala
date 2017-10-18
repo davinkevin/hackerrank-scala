@@ -1,4 +1,4 @@
-package comparethetriplets
+package algorithms.warmup.comparethetriplets
 
 import scala.io.Source
 
